@@ -1,0 +1,699 @@
+_____________________________________________________________
+inserting 1 and printing tree:
+1
+
+_____________________________________________________________
+inserting 2 and printing tree:
+1
+	2
+
+_____________________________________________________________
+inserting 3 and printing tree:
+2
+	3
+	1
+
+_____________________________________________________________
+inserting 4 and printing tree:
+2
+	3
+		4
+	1
+
+_____________________________________________________________
+inserting 5 and printing tree:
+2
+	4
+		5
+		3
+	1
+
+_____________________________________________________________
+inserting 6 and printing tree:
+4
+	5
+		6
+	2
+		3
+		1
+
+_____________________________________________________________
+inserting 7 and printing tree:
+4
+	6
+		7
+		5
+	2
+		3
+		1
+
+_____________________________________________________________
+inserting 8 and printing tree:
+4
+	6
+		7
+			8
+		5
+	2
+		3
+		1
+
+_____________________________________________________________
+inserting 9 and printing tree:
+4
+	6
+		8
+			9
+			7
+		5
+	2
+		3
+		1
+
+_____________________________________________________________
+inserting 10 and printing tree:
+4
+	8
+		9
+			10
+		6
+			7
+			5
+	2
+		3
+		1
+
+_____________________________________________________________
+inserting 11 and printing tree:
+4
+	8
+		10
+			11
+			9
+		6
+			7
+			5
+	2
+		3
+		1
+
+_____________________________________________________________
+inserting 12 and printing tree:
+8
+	10
+		11
+			12
+		9
+	4
+		6
+			7
+			5
+		2
+			3
+			1
+
+_____________________________________________________________
+inserting 13 and printing tree:
+8
+	10
+		12
+			13
+			11
+		9
+	4
+		6
+			7
+			5
+		2
+			3
+			1
+
+_____________________________________________________________
+inserting 14 and printing tree:
+8
+	12
+		13
+			14
+		10
+			11
+			9
+	4
+		6
+			7
+			5
+		2
+			3
+			1
+
+_____________________________________________________________
+inserting 15 and printing tree:
+8
+	12
+		14
+			15
+			13
+		10
+			11
+			9
+	4
+		6
+			7
+			5
+		2
+			3
+			1
+
+_____________________________________________________________
+min=1 max=15 find 3:3
+deleting 3 and printing tree:
+8
+	12
+		14
+			15
+			13
+		10
+			11
+			9
+	4
+		6
+			7
+			5
+		2
+			1
+
+contains 3:false
+_____________________________________________________________
+min=1 max=15 find 1:1
+deleting 1 and printing tree:
+8
+	12
+		14
+			15
+			13
+		10
+			11
+			9
+	4
+		6
+			7
+			5
+		2
+
+contains 1:false
+_____________________________________________________________
+min=2 max=15 find 12:12
+deleting 12 and printing tree:
+8
+	13
+		14
+			15
+		10
+			11
+			9
+	4
+		6
+			7
+			5
+		2
+
+contains 12:false
+_____________________________________________________________
+min=2 max=15 find 10:10
+deleting 10 and printing tree:
+8
+	13
+		14
+			15
+		11
+			9
+	4
+		6
+			7
+			5
+		2
+
+contains 10:false
+_____________________________________________________________
+min=2 max=15 find 7:7
+deleting 7 and printing tree:
+8
+	13
+		14
+			15
+		11
+			9
+	4
+		6
+			5
+		2
+
+contains 7:false
+_____________________________________________________________
+min=2 max=15 find 5:5
+deleting 5 and printing tree:
+8
+	13
+		14
+			15
+		11
+			9
+	4
+		6
+		2
+
+contains 5:false
+_____________________________________________________________
+min=2 max=15 find 12:null
+deleting 12 and printing tree:
+error, 12 not found in tree
+8
+	13
+		14
+			15
+		11
+			9
+	4
+		6
+		2
+
+contains 12:false
+_____________________________________________________________
+min=2 max=15 find 6:6
+deleting 6 and printing tree:
+8
+	13
+		14
+			15
+		11
+			9
+	4
+		2
+
+contains 6:false
+_____________________________________________________________
+min=2 max=15 find 12:null
+deleting 12 and printing tree:
+error, 12 not found in tree
+8
+	13
+		14
+			15
+		11
+			9
+	4
+		2
+
+contains 12:false
+_____________________________________________________________
+min=2 max=15 find 5:null
+deleting 5 and printing tree:
+error, 5 not found in tree
+8
+	13
+		14
+			15
+		11
+			9
+	4
+		2
+
+contains 5:false
+_____________________________________________________________
+min=2 max=15 find 3:null
+deleting 3 and printing tree:
+error, 3 not found in tree
+8
+	13
+		14
+			15
+		11
+			9
+	4
+		2
+
+contains 3:false
+_____________________________________________________________
+min=2 max=15 find 3:null
+deleting 3 and printing tree:
+error, 3 not found in tree
+8
+	13
+		14
+			15
+		11
+			9
+	4
+		2
+
+contains 3:false
+_____________________________________________________________
+min=2 max=15 find 5:null
+deleting 5 and printing tree:
+error, 5 not found in tree
+8
+	13
+		14
+			15
+		11
+			9
+	4
+		2
+
+contains 5:false
+_____________________________________________________________
+min=2 max=15 find 8:8
+deleting 8 and printing tree:
+9
+	13
+		14
+			15
+		11
+	4
+		2
+
+contains 8:false
+_____________________________________________________________
+min=2 max=15 find 10:null
+deleting 10 and printing tree:
+error, 10 not found in tree
+9
+	13
+		14
+			15
+		11
+	4
+		2
+
+contains 10:false
+_____________________________________________________________
+min=2 max=15 find 5:null
+deleting 5 and printing tree:
+error, 5 not found in tree
+9
+	13
+		14
+			15
+		11
+	4
+		2
+
+contains 5:false
+_____________________________________________________________
+min=2 max=15 find 2:2
+deleting 2 and printing tree:
+13
+	14
+		15
+	9
+		11
+		4
+
+contains 2:false
+_____________________________________________________________
+min=4 max=15 find 13:13
+deleting 13 and printing tree:
+14
+	15
+	9
+		11
+		4
+
+contains 13:false
+_____________________________________________________________
+min=4 max=15 find 14:14
+deleting 14 and printing tree:
+9
+	15
+		11
+	4
+
+contains 14:false
+_____________________________________________________________
+min=4 max=15 find 8:null
+deleting 8 and printing tree:
+error, 8 not found in tree
+9
+	15
+		11
+	4
+
+contains 8:false
+_____________________________________________________________
+min=4 max=15 find 13:null
+deleting 13 and printing tree:
+error, 13 not found in tree
+9
+	15
+		11
+	4
+
+contains 13:false
+_____________________________________________________________
+min=4 max=15 find 5:null
+deleting 5 and printing tree:
+error, 5 not found in tree
+9
+	15
+		11
+	4
+
+contains 5:false
+_____________________________________________________________
+min=4 max=15 find 13:null
+deleting 13 and printing tree:
+error, 13 not found in tree
+9
+	15
+		11
+	4
+
+contains 13:false
+_____________________________________________________________
+min=4 max=15 find 7:null
+deleting 7 and printing tree:
+error, 7 not found in tree
+9
+	15
+		11
+	4
+
+contains 7:false
+_____________________________________________________________
+min=4 max=15 find 10:null
+deleting 10 and printing tree:
+error, 10 not found in tree
+9
+	15
+		11
+	4
+
+contains 10:false
+_____________________________________________________________
+min=4 max=15 find 13:null
+deleting 13 and printing tree:
+error, 13 not found in tree
+9
+	15
+		11
+	4
+
+contains 13:false
+_____________________________________________________________
+min=4 max=15 find 6:null
+deleting 6 and printing tree:
+error, 6 not found in tree
+9
+	15
+		11
+	4
+
+contains 6:false
+_____________________________________________________________
+min=4 max=15 find 5:null
+deleting 5 and printing tree:
+error, 5 not found in tree
+9
+	15
+		11
+	4
+
+contains 5:false
+_____________________________________________________________
+min=4 max=15 find 9:9
+deleting 9 and printing tree:
+11
+	15
+	4
+
+contains 9:false
+_____________________________________________________________
+min=4 max=15 find 12:null
+deleting 12 and printing tree:
+error, 12 not found in tree
+11
+	15
+	4
+
+contains 12:false
+_____________________________________________________________
+min=4 max=15 find 8:null
+deleting 8 and printing tree:
+error, 8 not found in tree
+11
+	15
+	4
+
+contains 8:false
+_____________________________________________________________
+min=4 max=15 find 12:null
+deleting 12 and printing tree:
+error, 12 not found in tree
+11
+	15
+	4
+
+contains 12:false
+_____________________________________________________________
+min=4 max=15 find 6:null
+deleting 6 and printing tree:
+error, 6 not found in tree
+11
+	15
+	4
+
+contains 6:false
+_____________________________________________________________
+min=4 max=15 find 12:null
+deleting 12 and printing tree:
+error, 12 not found in tree
+11
+	15
+	4
+
+contains 12:false
+_____________________________________________________________
+min=4 max=15 find 8:null
+deleting 8 and printing tree:
+error, 8 not found in tree
+11
+	15
+	4
+
+contains 8:false
+_____________________________________________________________
+min=4 max=15 find 6:null
+deleting 6 and printing tree:
+error, 6 not found in tree
+11
+	15
+	4
+
+contains 6:false
+_____________________________________________________________
+min=4 max=15 find 9:null
+deleting 9 and printing tree:
+error, 9 not found in tree
+11
+	15
+	4
+
+contains 9:false
+_____________________________________________________________
+min=4 max=15 find 8:null
+deleting 8 and printing tree:
+error, 8 not found in tree
+11
+	15
+	4
+
+contains 8:false
+_____________________________________________________________
+min=4 max=15 find 6:null
+deleting 6 and printing tree:
+error, 6 not found in tree
+11
+	15
+	4
+
+contains 6:false
+_____________________________________________________________
+min=4 max=15 find 5:null
+deleting 5 and printing tree:
+error, 5 not found in tree
+11
+	15
+	4
+
+contains 5:false
+_____________________________________________________________
+min=4 max=15 find 10:null
+deleting 10 and printing tree:
+error, 10 not found in tree
+11
+	15
+	4
+
+contains 10:false
+_____________________________________________________________
+min=4 max=15 find 5:null
+deleting 5 and printing tree:
+error, 5 not found in tree
+11
+	15
+	4
+
+contains 5:false
+_____________________________________________________________
+min=4 max=15 find 5:null
+deleting 5 and printing tree:
+error, 5 not found in tree
+11
+	15
+	4
+
+contains 5:false
+_____________________________________________________________
+min=4 max=15 find 9:null
+deleting 9 and printing tree:
+error, 9 not found in tree
+11
+	15
+	4
+
+contains 9:false
+_____________________________________________________________
+min=4 max=15 find 7:null
+deleting 7 and printing tree:
+error, 7 not found in tree
+11
+	15
+	4
+
+contains 7:false
+_____________________________________________________________
+min=4 max=15 find 5:null
+deleting 5 and printing tree:
+error, 5 not found in tree
+11
+	15
+	4
+
+contains 5:false
+_____________________________________________________________
+min=4 max=15 find 15:15
+deleting 15 and printing tree:
+11
+	4
+
+contains 15:false
+_____________________________________________________________
+min=4 max=11 find 11:11
+deleting 11 and printing tree:
+4
+
+contains 11:false
+_____________________________________________________________
+min=4 max=4 find 4:4
+deleting 4 and printing tree:
+
+contains 4:false
